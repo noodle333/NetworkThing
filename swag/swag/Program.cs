@@ -18,7 +18,7 @@ while (true)
     else
     {
         Pokemon poke = JsonSerializer.Deserialize<Pokemon>(response.Content);
-        Console.WriteLine($"Name: {poke.Name}   id: {poke.Id}");
+        Console.WriteLine($"Name: {poke.name}   id: {poke.id}");
     }
 }
 

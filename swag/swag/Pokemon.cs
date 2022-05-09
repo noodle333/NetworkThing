@@ -2,8 +2,8 @@ using System;
 
 public class Pokemon
 {
-    public string Name { get; set; }
-    public int Id { get; set; }
+    public string name { get; set; }
+    public int id { get; set; }
     public bool IsDefault { get; set; }
 
 
